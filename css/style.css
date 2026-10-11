@@ -11,7 +11,7 @@ h3 {text-align: center;}
 .boton_s {font-size: 76px;
 	text-decoration: none;
 	line-height: 78px; 
-	background-image: url('../img/boton_madera.png');
+	
 	width: 200px;
 	height: 200px;
 	display: block;
@@ -19,16 +19,24 @@ h3 {text-align: center;}
 	margin: auto;
 }
 
+.esdh{
+	background-image: url('../img/esdh.png'),
+	url('../img/boton_madera_bn.png');
+	background-size: 75%, contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 a:hover.boton_s {
 	cursor: pointer;
-	background-size: 91%;
+	background-size: 80%, contain;
     background-position: center;
 	
 }
 
 a:active.boton_s {
-    background-size: cover;
-    background-position: unset;
+    background-size: 80%, contain;
+    background-position: center;
     cursor: progress;
     rotate: 1 1 90 90deg;
 
