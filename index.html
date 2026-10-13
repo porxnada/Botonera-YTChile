@@ -1,199 +1,118 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="es"> <!--<![endif]-->
+<html lang="es">
 <head>
+  <meta charset="utf-8" />
+  <title>Botonera YTChile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Basic Page Needs
+  <!-- CSS
   ================================================== -->
-	<meta charset="utf-8" />
-	<title>Botonera YTChile</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
+  <link rel="stylesheet" href="css/tailwind.css">
+  <link rel="stylesheet" href="css/style.css">
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/skeleton.css">
-	<link rel="stylesheet" href="css/layout.css">
-	<link rel="stylesheet" href="css/style.css">
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 </head>
-<body>
+<body class="font-sans text-gray-700 bg-white">
 
+  <!-- Contenedor (ancho máximo 1200px para 4 columnas en escritorio) -->
+  <main class="mx-auto max-w-[1200px] px-4">
 
+    <header class="mt-10">
+      <h1 class="text-5xl font-bold text-gray-900">Botonera YTChile</h1>
+      <h5 class="mt-1 text-lg text-gray-500">Version 1.0</h5>
+      <hr class="my-6 border-gray-200" />
+    </header>
 
-	<!-- Primary Page Layout
-	================================================== -->
+    <!-- 1 col móvil / 2 tablet / 3 laptop / 4 escritorio -->
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-5 gap-y-10 pb-16">
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="C-A ver!"><audio preload="auto" src="sounds/C-A-ver.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">C-A ver!</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="C-Callate waton ql"><audio preload="auto" src="sounds/C-Callatewatonql.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">C-Callate waton ql</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="C-olorapicorico"><audio preload="auto" src="sounds/C-olorapicorico.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">C-olorapicorico</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="C-Oy la wea wena"><audio preload="auto" src="sounds/C-Oy-lawea-wena.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">C-Oy la wea wena</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="C-AHHH"><audio preload="auto" src="sounds/C-AHHH.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">C-AHHH</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="C-chucuchucuchucuchu"><audio preload="auto" src="sounds/C-chucuchucuchucuchu.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">C-chucuchucuchucuchu</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-ahem"><audio preload="auto" src="sounds/L-ahem.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-ahem</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-Sale ordinario rql"><audio preload="auto" src="sounds/L-Saleordinariorql.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-Sale ordinario rql</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-Herí Pérez nomas wn"><audio preload="auto" src="sounds/L-eripereznomaswn.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-Herí Pérez nomas wn</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-Me la resecaste"><audio preload="auto" src="sounds/L-melaresecaste.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-Me la resecaste</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-Olorapico"><audio preload="auto" src="sounds/L-Olorapico.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-Olorapico</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-Te creí la raja csm"><audio preload="auto" src="sounds/L-tecreilaraja.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-Te creí la raja csm</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="L-Ya"><audio preload="auto" src="sounds/L-Ya.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">L-Ya</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="P-Héctor"><audio preload="auto" src="sounds/P-Hector.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">P-Héctor</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="Foquita"><audio preload="auto" src="sounds/Foquita.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">Foquita</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton esdh" aria-label="Clasicos-HomeroChino"><audio preload="auto" src="sounds/Clasicos-HomeroChino.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">Clasicos-HomeroChino</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton dantesco" aria-label="El Meñique"><audio preload="auto" src="sounds/Clasicos-HomeroChino.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">El Meñique</h3>
+      </div>
+      <div class="flex flex-col items-center">
+        <button type="button" class="boton fabuloso" aria-label="El Meñique"><audio preload="auto" src="sounds/Clasicos-HomeroChino.mp3"></audio></button>
+        <h3 class="mt-4 text-center text-xl font-semibold text-gray-800">El Meñique</h3>
+      </div>
+    </section>
+  </main>
 
-	<!-- Delete everything in this .container and get started on your own site! -->
-
-	<div class="container">
-		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">Botonera YTChile</h1>
-			<h5>Version 1.0</h5>
-			<hr />
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto" src="sounds/C-A-ver.mp3"></audio></a>
-			</p>
-			<h3>C-A ver!</h3>
-		</div>
-		<div class="one-third column">
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/C-Callatewatonql.mp3"></audio></a>
-			</p>
-			<h3>C-Callate waton ql</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/C-olorapicorico.mp3"></audio></a>
-			</p>
-			<h3>C-olorapicorico</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/C-Oy-lawea-wena.mp3"></audio></a>
-			</p>
-			<h3>C-Oy la wea wena</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/C-AHHH.mp3"></audio></a>
-			</p>
-			<h3>C-AHHH</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/C-chucuchucuchucuchu.mp3"></audio></a>
-			</p>
-			<h3>C-chucuchucuchucuchu</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/L-ahem.mp3"></audio></a>
-			</p>
-			<h3>L-ahem</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/L-Saleordinariorql.mp3"></audio></a>
-			</p>
-			<h3>L-Sale ordinario rql</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/L-eripereznomaswn.mp3"></audio></a>
-			</p>
-			<h3>L-Herí Pérez nomas wn</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/L-melaresecaste.mp3"></audio></a>
-			</p>
-			<h3>L-Me la resecaste</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/L-Olorapico.mp3"></audio></a>
-			</p>
-			<h3>L-Olorapico</h3>
-		</div>
-		
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto" src="sounds/L-tecreilaraja.mp3"></audio></a>
-			</p>
-			<h3>L-Te creí la raja csm</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/L-Ya.mp3"></audio></a>
-			</p>
-			<h3>L-Ya</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/M-quenoquieroexcitaraeso.mp3"></audio></a>
-			</p>
-			<h3>M-Que no quiero excitaraeso</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/P-Hector.mp3"></audio></a>
-			</p>
-			<h3>P-Héctor</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/Foquita.mp3"></audio></a>
-			</p>
-			<h3>Foquita</h3>
-		</div>
-		<div class="one-third column">
-			
-			<p>
-				<a class="boton_s esdh" onclick="this.firstChild.play()"><audio preload="auto"src="sounds/Clasicos-HomeroChino.mp3"></audio></a>
-			</p>
-			<h3>Clasicos-HomeroChino</h3>
-		</div>
-		
-		
-		
-
-	</div><!-- container -->
-
-<!-- Le Scripts
-================================================== -->
-
-<script type="text/javascript">
-  // Reinicia y reproduce el audio cada vez que se hace clic
-  document.querySelectorAll('a.boton_s').forEach(function (boton) {
-    boton.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      const audio = this.firstChild;
-
-      audio.pause();
-      audio.currentTime = 0;
-      audio.play();
+  <script>
+    // Reinicia y reproduce el audio cada vez que se hace clic
+    document.querySelectorAll('button.boton').forEach(function (boton) {
+      boton.addEventListener('click', function () {
+        const audio = this.querySelector('audio');
+        audio.pause();
+        audio.currentTime = 0;
+        audio.play();
+      });
     });
-  });
-</script>
-
-<!-- End Document
-================================================== -->
+  </script>
 </body>
 </html>

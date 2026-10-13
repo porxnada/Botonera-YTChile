@@ -1,0 +1,6 @@
+/* Fuente de Tailwind CSS v4. Para recompilar:
+   npx @tailwindcss/cli -i css/tailwind.src.css -o css/tailwind.css --minify */
+@import "tailwindcss" source("../");
+@theme {
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,43 +1,23 @@
-/* Style */
+/* Estilos propios de la Botonera (reemplaza .boton_s + .esdh/.dantesco/.fabuloso) */
 
-html {font-size: 16px;}
-
-body {font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	font-size: 1.4rem;
-	}
-h3 {text-align: center;}
-
-.boton_s {font-size: 76px;
-	text-decoration: none;
-	line-height: 78px; 
-	
-	width: 200px;
-	height: 200px;
-	display: block;
-	background-size: cover;
-	margin: auto;
+.boton {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: var(--icono), url('../img/boton_plastic.png');
+  background-size: 70%, contain;
+  transition: background-size 100ms;
 }
+.boton:focus { outline: none; }
+.boton:hover  { background-size: 75%, contain; }
+.boton:active { background-size: 80%, contain; cursor: progress; }
 
-.esdh{
-	background-image: url('../img/esdh.png'),
-	url('../img/boton_madera_bn.png');
-	background-size: 75%, contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-a:hover.boton_s {
-	cursor: pointer;
-	background-size: 80%, contain;
-    background-position: center;
-	
-}
-
-a:active.boton_s {
-    background-size: 80%, contain;
-    background-position: center;
-    cursor: progress;
-    rotate: 1 1 90 90deg;
-
-}
+.esdh     { --icono: url('../img/esdh.png'); }
+.dantesco { --icono: url('../img/dantesc.png'); }
+.fabuloso { --icono: url('../img/fabuloso.png'); }
