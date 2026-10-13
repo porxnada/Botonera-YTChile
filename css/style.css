@@ -18,6 +18,7 @@
 .boton:hover  { background-size: 75%, contain; }
 .boton:active { background-size: 80%, contain; cursor: progress; }
 
+.solo     { --icono: url(); }
 .esdh     { --icono: url('../img/esdh.png'); }
 .dantesco { --icono: url('../img/dantesc.png'); }
 .fabuloso { --icono: url('../img/fabuloso.png'); }
